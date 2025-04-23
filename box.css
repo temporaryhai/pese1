@@ -1,0 +1,82 @@
+body {
+    overflow-x: hidden;
+
+}
+
+#bigbox {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#box {
+    height: 95vh;
+    width: 97vw;
+    background: #583867;
+    border: 5px solid rgb(107, 105, 105);
+    border-radius: 75px;
+    box-shadow: 10px 10px 15px rgb(255, 255, 255), -10px -10px 15px rgb(255, 255, 255);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#box1 {
+    height: 85vh;
+    width: 25vw;
+    background: rgb(44, 0, 88);
+    border: 5px solid rgb(251, 139, 69);
+    border-radius: 75px;
+    box-shadow: 5px 5px 5px rgb(192, 149, 232), -5px -5px 5px rgb(224, 149, 91);
+    margin: auto;
+}
+
+#box1img {
+    width: 25vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 1vh
+}
+
+#bimg1 {
+    height: 110%;
+    backdrop-filter: blur(10px);
+    background: #ffffff77;
+    border: 5px solid rgb(204, 150, 34);
+    border-radius: 50px;
+    backdrop-filter: blur(0px);
+}
+
+#box2 {
+    height: 85vh;
+    width: 60vw;
+    background: rgba(47, 0, 135, 0.577);
+    border: 5px solid rgb(251, 139, 69);
+    border-radius: 75px;
+    box-shadow: 5px 5px 5px rgb(192, 149, 232), -5px -5px 5px rgb(224, 149, 91);
+    margin: auto;
+}
+
+@media screen and (max-width:730px) {
+    #bigbox {
+        margin-top: 50px;
+    }
+
+
+    #box {
+        width: 95vw;
+        height: 95vh;
+        border: 3px solid rgb(254, 117, 254);
+        border-radius: 65px;
+        box-shadow: 5px 5px 10px rgb(192, 149, 232), -5px -5px 10px rgb(224, 149, 91);
+        overflow-x: hidden;
+    }
+}
